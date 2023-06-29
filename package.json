@@ -1,0 +1,25 @@
+{
+  "name": "cucumber_bdd",
+  "version": "1.0.0",
+  "description": "BDD Cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "file": "cypress run --browser chrome --spec cypress/e2e/features/*"
+  },
+  "keywords": [
+    "BDD",
+    "Cucumber",
+    "Cypress"
+  ],
+  "author": "WM",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^18.0.1",
+    "cypress": "^12.16.0",
+    "multiple-cucumber-html-reporter": "^3.4.0"
+  },
+  "dependencies": {
+    "@cypress/browserify-preprocessor": "^3.0.2"
+  }
+}
